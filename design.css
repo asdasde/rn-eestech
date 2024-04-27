@@ -1,0 +1,52 @@
+/*ceo sajt*/
+body{
+    background: rgb(134,127,255);
+    background: linear-gradient(177deg, rgba(134,127,255,1) 0%, rgba(143,143,227,1) 10%, rgba(96,173,189,1) 100%);
+}
+
+/*glavni naslov, a moze i za tekst tipa "rezultati analize fajlova"*/
+heading{
+    text-align: center;
+    font-family: serif, Georgia;
+    font-size: large;
+    text-decoration: underline;
+    font-weight: bold;
+    text-decoration-color: black;
+}
+
+/*polje za unos jsona*/
+insert{
+    background-color: darkgrey;
+    border-color: dimgrey;
+    align-self: center;
+    text-align: center;
+    font-family: monospace, "Courier New";
+    text-decoration-color: black;
+    text-size-adjust: auto;
+}
+
+/*submit button*/
+button{
+    background-color: #6495ED;
+    border-color: #483D8B;
+    align-self: center;
+    align-self: end;
+    font-family: serif, Georgia;
+    font-size: medium;
+    font-weight: bold;
+    text-decoration-color: aliceblue;
+    text-align: center;
+}
+
+/*textbox za rez*/
+result{
+    background-color: darkgrey;
+    border-color: dimgrey;
+    button-width: 50%;
+    button-height: 70%;
+    align-self: center;
+    text-align: justify;
+    font-family: sans, Georgia;
+    text-decoration-color: black;
+    font-size: medium;
+}
