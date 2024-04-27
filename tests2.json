@@ -1,51 +1,51 @@
 {
     "1": {
-        "task": "Toilets are in bad shape",
+        "message": "Toilets are in bad shape",
         "gender": "female",
         "age": 25
     },
     "2": {
-        "task": "Class is boring",
+        "message": "Class is boring",
         "gender": "unknown",
         "age": 22
     },
     "3": {
-        "task": "Library could be more colorful",
+        "message": "Library could be more colorful",
         "gender": "male",
         "age": 32
     },
     "4": {
-        "task": "Toiltets stink",
+        "message": "Toiltets stink",
         "gender": "male",
         "age": 27
     },
     "5": {
-        "task": "Professors are not explaining the subject well",
+        "message": "Professors are not explaining the subject well",
         "gender": "female",
         "age": 25
     },
     "6": {
-        "task": "",
+        "message": "",
         "gender": "unknown",
         "age": 21
     },
     "7": {
-        "task": "Manage time effectively",
+        "message": "Manage time effectively",
         "gender": "male",
         "age": 44
     },
     "8": {
-        "task": "Seek help when needed",
+        "message": "Seek help when needed",
         "gender": "female",
         "age": 50
     },
     "9": {
-        "task": "Review and revise",
+        "message": "Review and revise",
         "gender": "male",
         "age": 20
     },
     "10": {
-        "task": "Stay motivated",
+        "message": "Stay motivated",
         "gender": "unknown",
         "age": 30
     }
