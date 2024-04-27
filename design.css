@@ -2,51 +2,46 @@
 body{
     background: rgb(134,127,255);
     background: linear-gradient(177deg, rgba(134,127,255,1) 0%, rgba(143,143,227,1) 10%, rgba(96,173,189,1) 100%);
+    height: 100vh;
 }
 
 /*glavni naslov, a moze i za tekst tipa "rezultati analize fajlova"*/
-heading{
+.heading{
     text-align: center;
     font-family: serif, Georgia;
-    font-size: large;
+    font-size: xx-large;
     text-decoration: underline;
     font-weight: bold;
     text-decoration-color: black;
 }
 
-/*polje za unos jsona*/
-insert{
-    background-color: darkgrey;
-    border-color: dimgrey;
-    align-self: center;
-    text-align: center;
-    font-family: monospace, "Courier New";
-    text-decoration-color: black;
-    text-size-adjust: auto;
-}
-
-/*submit button*/
-button{
-    background-color: #6495ED;
-    border-color: #483D8B;
-    align-self: center;
-    align-self: end;
-    font-family: serif, Georgia;
-    font-size: medium;
-    font-weight: bold;
-    text-decoration-color: aliceblue;
-    text-align: center;
-}
-
 /*textbox za rez*/
-result{
-    background-color: darkgrey;
-    border-color: dimgrey;
-    button-width: 50%;
-    button-height: 70%;
-    align-self: center;
-    text-align: justify;
-    font-family: sans, Georgia;
+button{
+    background-color: rgb(221, 210, 210);
+    border: 4px solid dimgrey;
+    display: block;
+    margin: 0 auto;
+    width: 20%;
+    height: 70%;
+    text-align: center;
+    font-family: sans-serif, Arial;
     text-decoration-color: black;
-    font-size: medium;
+    font-size: large;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+} 
+  /* Style form inputs and textarea */
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 4px solid dimgrey;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+button:hover {
+    background-color: #61acfc;
+    transform: scale(1.2);
 }

@@ -23,59 +23,42 @@ function sendData(data) {
 
 const form = document.createElement('form');
 
-const input = document.createElement('input');
-input.type = 'file';
-input.accept = 'application/json';
+const ime = document.createElement('input');
+ime.type = 'text';
+ime.placeholder = 'First name';
 
-const apiUrl = 'http://13.13.13.141:5000/generate';
+const prezime = document.createElement('input');
+prezime.type = 'text';
+prezime.placeholder = 'Last name';
 
-const files = [];
+const email = document.createElement('input');
+email.type = 'email';
+email.placeholder = 'Email';
+
+const text = document.createElement('textarea');
+text.placeholder = 'Write your message here...';
 
 const button = document.createElement('button');
-button.style.padding = '8px 16px';
-button.style.margin = '8px';
+button.textContent = 'Submit';
 
-form.appendChild(input);
+form.appendChild(ime);
+form.appendChild(prezime);
+form.appendChild(email);
+form.appendChild(text);
 form.appendChild(button);
+
 document.body.appendChild(form);
-
-input.addEventListener('change', () => {
-    const file = input.files[0];
-    const reader = new FileReader();
-    reader.onload = () => {
-        try {
-        const fileData = JSON.parse(event.target.result);
-        files.push(fileData);
-        } catch(error) {
-            console.error(error);
-        }
-    };
-    reader.readAsText(file);
-});
-
-const dataResponse = '';
 
 button.addEventListener('click', () => {
     event.preventDefault();
-    fetch(apiUrl, {
-        method: 'POST',
-        headers: {
-            'Content-type': 'application/json'
-        },
-        body: JSON.stringify(files)
-    })
-    .then(response => {
-        if(!response.ok) {
-            throw new Error('Failed to generate file');
-        }
-        return response.json();
-    })
-    .then(data => {
-        dataResponse = data;
-        console.log('Api response: ', data);
-    })
-    .catch(error => {
-        console.error('Error sending API request', error);
+    if(ime.value === '' || prezime.value === '' || email.value === '' || text.value === '') {
+        alert('Please fill in all fields');
+        return;
+    }
+    sendData({
+        first_name: ime.value,
+        last_name: prezime.value,
+        email: email.value,
+        text: text.value
     })
 });
-document.write(dataResponse);
