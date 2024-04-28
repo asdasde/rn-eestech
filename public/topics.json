@@ -2,12 +2,11 @@
   {
     "topic": "other",
     "count_positive": 0,
-    "count_negative": 3,
+    "count_negative": 2,
     "positive_list": [],
     "negative_list": [
       "Toilets are not nice.",
-      "Toilet seats are filthy.",
-      "Toilets are not nice."
+      "Toilet seats are filthy."
     ]
   },
   {
