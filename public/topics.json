@@ -1,78 +1,33 @@
 [
   {
-    "response": [
-      {
-        "sentence": "are not nice.",
-        "sentiment": "NEGATIVE",
-        "topic": "other"
-      },
-      {
-        "sentence": "guide really well.",
-        "sentiment": "POSITIVE",
-        "topic": "professor"
-      },
-      {
-        "sentence": "are little older then they should be.",
-        "sentiment": "NEGATIVE",
-        "topic": "infrastructure"
-      },
-      {
-        "sentence": "is holding quite well.",
-        "sentiment": "POSITIVE",
-        "topic": "infrastructure"
-      }
+    "topic": "other",
+    "count_positive": 0,
+    "count_negative": 3,
+    "positive_list": [],
+    "negative_list": [
+      "Toilets are not nice.",
+      "Toilet seats are filthy.",
+      "Toilets are not nice."
     ]
   },
   {
-    "response": [
-      {
-        "sentence": "Toilets are not nice.",
-        "sentiment": "NEGATIVE",
-        "topic": "other"
-      },
-      {
-        "sentence": "Professors guide really well.",
-        "sentiment": "POSITIVE",
-        "topic": "professor"
-      },
-      {
-        "sentence": "Chairs are little older then they should be.",
-        "sentiment": "NEGATIVE",
-        "topic": "infrastructure"
-      }
-    ]
+    "topic": "professor",
+    "count_positive": 1,
+    "count_negative": 0,
+    "positive_list": [
+      "Professors guide really well."
+    ],
+    "negative_list": []
   },
   {
-    "response": [
-      {
-        "sentence": "are not nice.",
-        "sentiment": "NEGATIVE",
-        "topic": "other"
-      }
-    ]
-  },
-  {
-    "response": [
-      {
-        "sentence": "Love that classes are starting on full hour but actually starts 15 minutes later.",
-        "sentiment": "POSITIVE",
-        "topic": "professor"
-      },
-      {
-        "sentence": "I don't like the fact that smoking is forbidden..",
-        "sentiment": "NEGATIVE",
-        "topic": "other"
-      },
-      {
-        "sentence": "I like that chalk is used for writing..",
-        "sentiment": "POSITIVE",
-        "topic": "study material"
-      },
-      {
-        "sentence": "I think computers are itsh..",
-        "sentiment": "OTHER",
-        "topic": "other"
-      }
+    "topic": "infrastructure",
+    "count_positive": 1,
+    "count_negative": 1,
+    "positive_list": [
+      "Infrastructure is holding quite well."
+    ],
+    "negative_list": [
+      "Chairs are little older then they should be."
     ]
   }
 ]

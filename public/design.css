@@ -9,8 +9,7 @@ body{
 .heading{
     text-align: center;
     font-family: serif, Georgia;
-    font-size: xx-large;
-    text-decoration: underline;
+    font-size: 45px;
     font-weight: bold;
     text-decoration-color: black;
 }
@@ -44,4 +43,42 @@ button{
 button:hover {
     background-color: #61acfc;
     transform: scale(1.2);
+}
+.tableElement {
+  text-align: center;
+  margin : 0 auto;
+  margin-top:10px;
+  border: 4px solid black;
+  border-collapse: collapse;
+}
+.table {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 20px;
+  border: 4px solid black;
+  border-collapse: collapse;
+}
+
+.index {
+  width:100%;
+  height:90%;
+}
+
+.itemIndex {
+
+  width: 100px;
+  height: 60px;
+  text-align: center;
+  font-size: xx-large;
+  font-weight: bold;
+  background-color: none;
+}
+
+.itemIndex:hover {
+  background-color: #b4d1f0;
+}
+
+.aIndex {
+  text-decoration: none;
+  color: black;
 }
