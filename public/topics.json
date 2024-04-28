@@ -1,0 +1,78 @@
+[
+  {
+    "response": [
+      {
+        "sentence": "are not nice.",
+        "sentiment": "NEGATIVE",
+        "topic": "other"
+      },
+      {
+        "sentence": "guide really well.",
+        "sentiment": "POSITIVE",
+        "topic": "professor"
+      },
+      {
+        "sentence": "are little older then they should be.",
+        "sentiment": "NEGATIVE",
+        "topic": "infrastructure"
+      },
+      {
+        "sentence": "is holding quite well.",
+        "sentiment": "POSITIVE",
+        "topic": "infrastructure"
+      }
+    ]
+  },
+  {
+    "response": [
+      {
+        "sentence": "Toilets are not nice.",
+        "sentiment": "NEGATIVE",
+        "topic": "other"
+      },
+      {
+        "sentence": "Professors guide really well.",
+        "sentiment": "POSITIVE",
+        "topic": "professor"
+      },
+      {
+        "sentence": "Chairs are little older then they should be.",
+        "sentiment": "NEGATIVE",
+        "topic": "infrastructure"
+      }
+    ]
+  },
+  {
+    "response": [
+      {
+        "sentence": "are not nice.",
+        "sentiment": "NEGATIVE",
+        "topic": "other"
+      }
+    ]
+  },
+  {
+    "response": [
+      {
+        "sentence": "Love that classes are starting on full hour but actually starts 15 minutes later.",
+        "sentiment": "POSITIVE",
+        "topic": "professor"
+      },
+      {
+        "sentence": "I don't like the fact that smoking is forbidden..",
+        "sentiment": "NEGATIVE",
+        "topic": "other"
+      },
+      {
+        "sentence": "I like that chalk is used for writing..",
+        "sentiment": "POSITIVE",
+        "topic": "study material"
+      },
+      {
+        "sentence": "I think computers are itsh..",
+        "sentiment": "OTHER",
+        "topic": "other"
+      }
+    ]
+  }
+]

@@ -1,3 +1,27 @@
+function update(new_data) {
+    const url = "/submit-form"; 
+    fetch(url, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(new_data)
+    })
+    .then(response => {
+        if(!response.ok) {
+            throw new Error('Network response was not ok');
+        }
+        console.log("Response:", response);
+        return response.json();
+    })
+    .then(data => {
+        console.log('Success 2:', data);
+    })
+    .catch((error) => {
+        console.error('Error 2:', error);
+    });
+}
+
 function sendData(data) {
     const url = 'http://13.13.13.141:5000/generate';  // URL to your Flask API
     fetch(url, {
@@ -15,6 +39,7 @@ function sendData(data) {
     })  // Parse JSON response
     .then(data => {
         console.log('Success:', data);
+        update(data);
     })
     .catch((error) => {
         console.error('Error:', error);
